@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.form {
+  padding: 30px;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+#students {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.student {
+  background-color: #fec8d8;
+  width: 200px;
+  margin: 30px;
+  padding: 8px;
+}
+
+.student div {
+  margin: 8px 0;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+}

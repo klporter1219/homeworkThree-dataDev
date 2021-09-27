@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <form id="addStudent" class="form">
+        <div class="longInput">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" />
+        </div>
+        <div class="longInput">
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="text" name="phone" />
+        </div>
+        <div class="longInput">
+            <label for="age">Age:</label>
+            <input id="age" type="text" name="age" />
+        </div>
+        <div class="longInput">
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email" />
+        </div>
+        <div class="longInput">
+            <label for="classes">Classes (comma separated):</label>
+            <input id="classes" type="text" name="classes" />
+        </div>
+        
+        <input type="submit" id="submit" value="save" />
+    </form>
+
+    <button id="show-students">show students</button>
+
+    <div id="students"></div>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
